@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"99roomz": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

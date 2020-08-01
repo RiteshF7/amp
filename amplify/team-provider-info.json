@@ -1,0 +1,22 @@
+{
+    "roomz": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-99roomz-roomz-161931-authRole",
+            "UnauthRoleArn": "arn:aws:iam::611227808094:role/amplify-99roomz-roomz-161931-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::611227808094:role/amplify-99roomz-roomz-161931-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-99roomz-roomz-161931-deployment",
+            "UnauthRoleName": "amplify-99roomz-roomz-161931-unauthRole",
+            "StackName": "amplify-99roomz-roomz-161931",
+            "StackId": "arn:aws:cloudformation:us-east-1:611227808094:stack/amplify-99roomz-roomz-161931/13de0be0-c29b-11ea-b235-0a3bc12b2732",
+            "AmplifyAppId": "d3s01mv6plvw11"
+        },
+        "categories": {
+            "auth": {
+                "99roomz": {
+                    "facebookAppId": "590082894813643"
+                }
+            }
+        }
+    }
+}

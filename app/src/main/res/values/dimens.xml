@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="margin_left_16">16dp</dimen>
+    <dimen name="margin_right_16">16dp</dimen>
+    <dimen name="margin_top_16">16dp</dimen>
+    <dimen name="margin_bottom_16">16dp</dimen>
+
+
+    <dimen name="margin_top_8">8dp</dimen>
+    <dimen name="margin_bottom_8">8dp</dimen>
+    <dimen name="margin_left_8">8dp</dimen>
+    <dimen name="margin_right_8">8dp</dimen>
+    <dimen name="iconsize">50dp</dimen>
+    <dimen name="text_20">20dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+</resources>

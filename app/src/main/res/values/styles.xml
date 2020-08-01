@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Font_family_light1" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Font_family_regular1" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="Theme.AppCompat.NoActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="generic_button_style">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="username_edittext_style" parent="Font_family_light1">
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:drawableRight">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:background">@drawable/rect_light_back</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+
+    <style name="textview_or">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textview_bottom_details" parent="Font_family_light1">
+        <item name="android:drawableLeft">@drawable/ic_tick_green</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
